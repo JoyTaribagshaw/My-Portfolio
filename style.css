@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-color: #f7f7f9;
+  }
+/* header-background-mobile */
+.header, .headline{
+    background-color: #ffffff;
+}
+.headline {
+    background-image:url("header-shapes mobile@1x.png");
+    border-bottom-left-radius: 70px;
+} 
+
+.header {
+    width: 100%;
+    height: 100%;
+    padding: 0 25px;
+    margin: 0;
+}
+
+/* My Logo */
+.logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    color: #6070FF;
+}
+
+/*menu bar*/
+.menubar {
+    color: #6070FF;
+}
+
+/*nav bar*/
+nav {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+/*headline*/
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* My Logo */
+.logo {
+width: 100%;
+height: 25%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+/*headline-1*/
+.headline-1 {
+width: 100%;
+height: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 750;
+font-size: 43px;
+line-height: 53px;
+align-items: center;
+color: #172B4D;
+margin-top: 100px;
+margin-left: 25px;
+}
+
+/*headline-2*/
+.headline-2 {
+width: 80%;
+height: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #344563;
+margin-left: 25px;
+}
+
+/*Let's connect*/
+.connect {
+width: 100%;
+height: 100%;
+margin-top: 40px;
+margin-left: 25px;
+}
+
+h4 {
+width: 100%;
+height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+    margin-left: 12px;
+}
+
+/*Social media icons*/
+.headline-images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    margin-bottom: 130px;
+}
+/*Vector*/
+.vector { 
+    height: 25px;
+    width: 40px;
+    padding: 5px 5px;
+    color: #505F79;
+}
+
