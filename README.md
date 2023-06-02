@@ -132,6 +132,6 @@ I would like to thank microverse and my code reveiwer for making this project po
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/JoyTaribagshaw/My-Portfolio/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/JoyTaribagshaw/My-Portfolio/blob/main/LICENSE) licensed..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
