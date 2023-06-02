@@ -31,8 +31,8 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.org/">html</a></li>
-    <li><a href="https://css.org/">css</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
 </details>
 
@@ -60,13 +60,6 @@ In order to run this project you need:
 - VS Code installed
 - A browser
 
-<!--
-Example command:
-
-sh
- gem install rails
-
- -->
 
 ### Setup
 
@@ -74,23 +67,6 @@ sh
 [Github](https://github.com/JoyTaribagshaw/My-Portfolio)
 - Navigate to the clone reppository by running cd `My-Portfolio`
 
-<!--
-Example commands:
-
-sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-
---->
-
-<!--
-Example command:
-
-sh
-  cd my-project
-  gem install
-
---->
 
 ### Usage
 
@@ -98,27 +74,10 @@ To run the project, execute the following command:
 
     open the index file in the browser
 
-<!--
-Example command:
-
-sh
-  rails server
-
---->
-
-
 ### Deployment
 
 You can deploy this project using:
 Github pages.
-
-<!--
-Example:
-
-sh
-
-
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +89,7 @@ sh
 
 - GitHub: [Joy](https://github.com/JoyTaribagshaw)
 - Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
-- LinkedIn: [Joy](https://linkedin.com/in/JoyTari-bagshaw)
+- LinkedIn: [Joy](https://www.linkedin.com/in/joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +108,7 @@ sh
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JoyTaribagshaw/Hello-Microverse-project/issues/).
+Feel free to check the [issues page](https://github.com/JoyTaribagshaw/My-portfolio/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,6 +132,6 @@ I would like to thank microverse and my code reveiwer for making this project po
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/JoyTaribagshaw/My-Portfolio/blob/main/LICENSEE) licensed.
+This project is [MIT](https://github.com/JoyTaribagshaw/My-Portfolio/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 

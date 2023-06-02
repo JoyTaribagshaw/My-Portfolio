@@ -42,7 +42,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1rem;
+  padding: 4px 24px;
 }
 
 /* My Logo */
@@ -62,11 +62,11 @@ nav {
 
 /* headline-1 */
 .headline-1 {
-  width: 87%;
+  width: 70%;
   height: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 750;
+  font-weight: 700;
   font-size: 43px;
   line-height: 53px;
   align-items: center;
@@ -91,13 +91,14 @@ nav {
 /* Let's connect */
 .connect {
   width: 100%;
-  height: 100%;
+  height: 80%;
   margin-top: 40px;
-  margin-left: 25px;
+  margin-left: 20px;
+  margin-right: 25px;
 }
 
 h4 {
-  width: 100%;
+  width: 80%;
   height: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -105,7 +106,8 @@ h4 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-left: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* Social media icons */
@@ -113,8 +115,9 @@ h4 {
   display: flex;
   width: 100%;
   height: 100%;
-  margin-left: 30px;
+  margin-left: 24px;
   margin-bottom: 130px;
+  list-style-type: none;
 }
 
 /* Vector */
