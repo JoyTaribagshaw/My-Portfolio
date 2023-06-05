@@ -174,7 +174,7 @@ nav {
   margin: 0 16px;
 }
 
-li {
+.tags {
   display: flex;
   float: left;
   list-style-type: none;
