@@ -174,10 +174,9 @@ nav {
   margin: 0 16px;
 }
 
-.tags {
+li {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: left;
   list-style-type: none;
   margin-top: 0;
 }
@@ -195,8 +194,7 @@ nav {
   padding: 4px 12px 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  margin-right: 8px;
-  margin-left: 16px;
+  margin: 8px;
 }
 
 .css {
