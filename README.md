@@ -1,22 +1,24 @@
 <a name="readme-top"></a>
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 MY PORTFOLIO ](#-my-portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐ Show your support ](#-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -40,6 +42,10 @@
 
 - *Index Page*
 - *Social Media*
+- Use the Figma design for the project😊👌
+- Use the semantics elements💯
+- Use the validation HTML for the form .🚀
+- Use Form spree for the contact form 😃👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,12 +73,23 @@ In order to run this project you need:
 [Github](https://github.com/JoyTaribagshaw/My-Portfolio)
 - Navigate to the clone reppository by running cd `My-Portfolio`
 
+### Install
+
+Install this project with:
+
+  cd portfolio-version
+  npm install
+
 
 ### Usage
 
 To run the project, execute the following command:
 
     open the index file in the browser
+
+  ### Run tests
+
+To run tests, click on inspect to open the browser dev tools where you can inspect the entire HTML and CSS code. 
 
 ### Deployment
 
@@ -85,11 +102,18 @@ Github pages.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 *Author1*
+👤 *Joy Tari*
 
 - GitHub: [Joy](https://github.com/JoyTaribagshaw)
 - Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
 - LinkedIn: [Joy](https://www.linkedin.com/in/joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D)
+
+
+👤 *Noel Foka*
+
+- GitHub: [noelfoka](https://github.com/noelfoka)
+- Twitter: [noelnomgne](https://twitter.com/noelnomgne)
+- LinkedIn: [noelfoka](https://www.linkedin.com/in/[joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,8 +121,7 @@ Github pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- *Add About Page*
-- *Add Contact Page*
+**Add a contact form and finish the mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
