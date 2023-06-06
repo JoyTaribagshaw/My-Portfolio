@@ -419,11 +419,11 @@ button:hover {
   border: 1px solid transparent;
   background: #6070ff;
   border-radius: 100px 0 0 0;
-  background-image: url(assets/contact-mee.png);
+  background-image: url(Assets/contact-mee.png);
   background-position: right top;
   background-repeat: no-repeat;
   margin-top: 150px;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .form-content-container {
@@ -458,6 +458,8 @@ button:hover {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
   width: 80%;
   margin-left: 24px;
   margin-right: 24px;
@@ -484,15 +486,14 @@ textarea {
   width: 100%;
   margin-top: -2px;
   margin-bottom: 22px;
-  color: #b3bac5;
+  color: #000000;
   font-size: 15px;
   line-height: 24px;
 }
 
 .form-element {
   width: 100%;
-  height: 18px;
-  margin-bottom: 20px;
+  height: 48px;
   color: #172b4d;
 }
 
