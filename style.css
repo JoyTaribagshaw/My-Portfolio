@@ -416,13 +416,14 @@ button:hover {
 
 /* Form */
 #contact-me {
-  position: absolute;
-width: 100%;
-background: #6070FF;
-padding-top: 103px;
-border-top-left-radius: 70px;
-margin-top: 150px;
-background-image: url(assets/contact-me.png);
+  border: 1px solid transparent;
+  background: #6070FF;
+  border-radius: 100px 0 0 0 ;
+  background-image: url(assets/contact-mee.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  padding-top: 100px;
 }
 
 .form-content-container {
