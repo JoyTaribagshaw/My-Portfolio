@@ -77,7 +77,6 @@ In order to run this project you need:
 
 Install this project with:
 
-```sh
   cd portfolio-version
   npm install
 
@@ -88,7 +87,7 @@ To run the project, execute the following command:
 
     open the index file in the browser
 
-    ### Run tests
+  ### Run tests
 
 To run tests, click on inspect to open the browser dev tools where you can inspect the entire HTML and CSS code. 
 
