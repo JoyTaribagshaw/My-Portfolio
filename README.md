@@ -9,7 +9,9 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Install](#install)
     - [Usage](#usage)
+    - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -71,12 +73,24 @@ In order to run this project you need:
 [Github](https://github.com/JoyTaribagshaw/My-Portfolio)
 - Navigate to the clone reppository by running cd `My-Portfolio`
 
+### Install
+
+Install this project with:
+
+```sh
+  cd portfolio-version
+  npm install
+
 
 ### Usage
 
 To run the project, execute the following command:
 
     open the index file in the browser
+
+    ### Run tests
+
+To run tests, click on inspect to open the browser dev tools where you can inspect the entire HTML and CSS code. 
 
 ### Deployment
 
