@@ -40,6 +40,10 @@
 
 - *Index Page*
 - *Social Media*
+- Use the Figma design for the project😊👌
+- Use the semantics elements💯
+- Use the validation HTML for the form .🚀
+- Use Form spree for the contact form 😃👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,8 +101,7 @@ Github pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- *Add About Page*
-- *Add Contact Page*
+**Add a contact form and finish the mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
