@@ -1,22 +1,22 @@
 <a name="readme-top"></a>
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 MY PORTFOLIO ](#-my-portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐ Show your support ](#-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -89,11 +89,18 @@ Github pages.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 *Author1*
+👤 *Joy Tari*
 
 - GitHub: [Joy](https://github.com/JoyTaribagshaw)
 - Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
 - LinkedIn: [Joy](https://www.linkedin.com/in/joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D)
+
+
+👤 *Noel Foka*
+
+- GitHub: [noelfoka](https://github.com/noelfoka)
+- Twitter: [noelnomgne](https://twitter.com/noelnomgne)
+- LinkedIn: [noelfoka](https://www.linkedin.com/in/[joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
