@@ -59,7 +59,7 @@
       <div class="card-image">
         <img
           src="background-svg\Snapshoot Portfolio.svg"
-          alt="image"/>
+          class="card-img" alt="image"/>
       </div>
       <div>
         <h2 class="project-title">Tonic</h2>
@@ -98,7 +98,7 @@
       <div class="card-image">
         <img
           src="background-svg\Snapshoot Portfolio@2x.svg"
-          alt="image"/>
+          class="card-img" alt="image"/>
       </div>
       <div>
         <h2 class="project-title-1">Multi-Post
@@ -137,7 +137,7 @@
       <div class="card-image">
         <img
           src="background-svg\Snapshoot Portfolio3@2x.svg"
-          alt="image"/>
+          class="card-img" alt="image"/>
       </div>
       <div>
         <h2 class="project-title">Tonic</h2>
@@ -174,7 +174,7 @@
       <div class="container-1">
       <div class="card-image">
         <img
-          src="background-svg\Snapshoot Portfolio4@2x.svg"
+          src="background-svg\Snapshoot Portfolio4@2x.svg" class="card-img"
           alt="image"/>
       </div>
       <div>
@@ -275,6 +275,62 @@
     </div>
   </div>
     </section>
+
+  </section>
+  <!-- Contact Form -->
+  <section id="contact-me">
+          <div class="form-content-container">
+              <!-- Form header -->
+              <div class="form-header-container">
+                  <h2 class="form-header">Contact me</h2>
+              </div>
+              <!-- Form description -->
+              <div class="form-description-container">
+                  <p class="form-description">
+                      If you have an application you are interested in
+                      developing, a
+                      feature that you need built or a project that needs
+                      coding. I’d
+                      love to help with it!
+                  </p>
+              </div>
+              <!-- Form -->
+              <form action="https://formspree.io/f/mwkjrezy"
+                  method="post">
+                  <!-- Name -->
+                  <input
+                      name="form_name"
+                      type="text"
+                      class="form-element"
+                      placeholder="Enter your full-name"
+                      maxlength="30"
+                      required />
+                  <!-- Email Address -->
+                  <input
+                      name="form_email"
+                      type="email"
+                      class="form-element"
+                      placeholder="Enter your email address"
+                      required />
+                  <!-- Message -->
+                  <textarea
+                      name="form_message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Write your message here..."
+                      maxlength="500"
+                      required></textarea>
+                  <div class="submit-btn-container">
+                      <button type="submit" id="submit-btn">Get in touch</button>
+                  </div>
+              </form>
+              <!-- line -->
+              <div class="black-line-container">
+                  <img src="Assets\Shape.png" alt="black line" />
+              </div>
+          </div>
+      </div>
+  </section>
 
   </body>
 </html>
