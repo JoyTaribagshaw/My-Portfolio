@@ -418,12 +418,11 @@ button:hover {
 #contact-me {
   border: 1px solid transparent;
   background: #6070ff;
-  border-radius: 100px 0 0 0;
+  border-top-left-radius: 80px;
   background-image: url(Assets/contact-mee.png);
   background-position: right top;
   background-repeat: no-repeat;
   margin-top: 145px;
-  padding-top: 90px;
 }
 
 .form-content-container {
@@ -437,11 +436,13 @@ button:hover {
   justify-content: center;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  width: 90%;
+  width: 70%;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   color: #fff;
+  margin-top: 87px;
+  margin-left: 30px;
 }
 
 .form-description {
