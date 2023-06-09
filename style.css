@@ -398,11 +398,14 @@ h4 {
   padding-top: 16px;
 }
 
-button:hover {
-  background: #6070ff;
+.button:hover {
+  background: #008000;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
+.logo:hover {
+transform: rotate(180deg);
+}
 /* Form */
 #contact-me {
   border: 1px solid transparent;
