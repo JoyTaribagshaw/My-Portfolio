@@ -213,7 +213,7 @@
     "zwitch": "^1.0.5"
   },
   "devDependencies": {
-    "hint": "^7.1.9"
+    "hint": "^2.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
