@@ -404,8 +404,9 @@ h4 {
 }
 
 .logo:hover {
-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
+
 /* Form */
 #contact-me {
   border: 1px solid transparent;
