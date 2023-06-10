@@ -24,7 +24,7 @@
 
 # 📖 MY PORTFOLIO <a name="about-project"></a>
 
-*MY PORTFOLIO* is my microverse portfolio project.
+*MY PORTFOLIO* is my microverse portfolio project. In this project, we use HTML and CSS by adding an index and style file, replicating the template chosen, we also used linters to analyzes our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
