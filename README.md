@@ -125,6 +125,10 @@ Github pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LOOM VIDEO --!>
+
+[loom] (https://www.loom.com/share/8328a6618c244b74a07996eccf5cb288?sid=b7500f33-685b-4db9-b320-03ee364b8584)
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
