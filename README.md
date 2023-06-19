@@ -122,6 +122,13 @@ Github pages.
 - Twitter: [noelnomgne](https://twitter.com/noelnomgne)
 - LinkedIn: [noelfoka](https://www.linkedin.com/in/[joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/))
 
+
+👤 Imo Daniel
+
+- GitHub: [@Danny-imo](https://github.com/Danny-imo)
+- Twitter: [@danielimo758](https://twitter.com/danielimo758)
+- LinkedIn: [Imo Daniel](https://linkedin.com/in/Imo Daniel)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
