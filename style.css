@@ -41,35 +41,35 @@ body {
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
-width: 100%;
-height: 700px;
-background: #6070FF;
-background-color: #293ad0cc;
-position: absolute;
-top: 0px;
-left: 0px;
-bottom: 0px;
-backdrop-filter: blur(5px);
-padding-left: 28px;
+  width: 100%;
+  height: 700px;
+  background: #6070ff;
+  background-color: #293ad0cc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  padding-left: 28px;
 }
 
 .closebtn {
   width: 12px;
   height: 12px;
-  margin: 20px 5px 20px 300px
+  margin: 20px 5px 20px 300px;
 }
 
 .menu-link {
   text-decoration: none;
   color: #fff;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-padding-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
 /* nav bar */
