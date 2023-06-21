@@ -4,7 +4,9 @@ const navtext = document.querySelector(".mobile-menu");
 const hamburger = document.querySelector(".menubar");
 const closeBtn = document.querySelector(".closebtn");
 const menuLists = document.querySelectorAll(".menu-list");
-// const mobilePopup = document.querySelector("#mobile-popup");
+const mobilePopup = document.getElementById("mobile-popup");
+
+
 
 hamburger.addEventListener("click", () => {
   navtext.style.display = "block";
@@ -26,7 +28,7 @@ function getPopupHtml() {
   mobilePopupData.forEach(function (data) {
     popHtml += `
     <div class="mobile-project-title">
-      <h3 class="project-title">Tonic</h3>
+      <h3 class="project-title">${data.name}</h3>
       <img src="${data.featuredImage}" alt="close" class="popup-close"/>
     </div>
 
@@ -45,7 +47,7 @@ function getPopupHtml() {
   </div>
 
   <div class="popup-text">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+    <p>${data.description}</p>
   </div>
 
   <div class="popup-list">
