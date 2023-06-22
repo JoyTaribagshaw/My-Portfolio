@@ -1,38 +1,35 @@
-import { 
-  mobilePopupData
- } from "./data.js";
+import { mobilePopupData } from './data.js';
 
-const navtext = document.querySelector(".mobile-menu");
-const hamburger = document.querySelector(".menubar");
-const closeBtn = document.querySelector(".closebtn");
-const menuLists = document.querySelectorAll(".menu-list");
+const navtext = document.querySelector('.mobile-menu');
+const hamburger = document.querySelector('.menubar');
+const closeBtn = document.querySelector('.closebtn');
+const menuLists = document.querySelectorAll('.menu-list');
 
-
-hamburger.addEventListener("click", () => {
-  navtext.style.display = "block";
+hamburger.addEventListener('click', () => {
+  navtext.style.display = 'block';
 });
 
-closeBtn.addEventListener("click", () => {
-  navtext.style.display = "none";
+closeBtn.addEventListener('click', () => {
+  navtext.style.display = 'none';
 });
 
 for (let i = 0; i < menuLists.length; i += 1) {
-  menuLists[i].addEventListener("click", () => {
-    navtext.style.display = "none";
+  menuLists[i].addEventListener('click', () => {
+    navtext.style.display = 'none';
   });
 }
 
-document.getElementById('seeProjectButton').addEventListener('click', function (event) {
+document.getElementById('seeProjectButton').addEventListener('click', (event) => {
   event.preventDefault();
-  let button = event.target;
-  let mobilePopup = document.getElementById('mobile-popup');
-  let buttonRect = button.getBoundingClientRect();
-  let buttonCenterX = buttonRect.left + buttonRect.width + 1;
-  mobilePopup.style.left = buttonCenterX + 'px';
-  mobilePopup.style.top = (buttonRect.top - mobilePopup.offsetHeight) + 'px';
+  const button = event.target;
+  const mobilePopup = document.getElementById('mobile-popup');
+  const buttonRect = button.getBoundingClientRect();
+  const buttonCenterX = buttonRect.left + buttonRect.width + 25;
+  mobilePopup.style.left = `${buttonCenterX}px`;
+  mobilePopup.style.top = `${buttonRect.top - mobilePopup.offsetHeight}px`;
   mobilePopup.style.display = 'block';
 });
-document.getElementById('mobile-popup').addEventListener('click', function (e) {
+document.getElementById('mobile-popup').addEventListener('click', (e) => {
   e.preventDefault();
   if (e.target.classList.contains('popup-close')) {
     document.getElementById('mobile-popup').style.display = 'none';
@@ -40,9 +37,9 @@ document.getElementById('mobile-popup').addEventListener('click', function (e) {
 });
 
 function getPopupHtml() {
-  let popHtml = ``;
+  let popHtml = '';
 
-  mobilePopupData.forEach(function (data) {
+  mobilePopupData.forEach((data) => {
     popHtml += `
     <div class="mobile-project-title">
       <h3 class="project-title">${data.name}</h3>
@@ -63,14 +60,16 @@ function getPopupHtml() {
           class="popup-img" alt="image"/>
   </div>
 
+  <div class="popup-flex">
   <div class="popup-text">
     <p>${data.description}</p>
   </div>
 
+  <div>
   <div class="popup-list">
     <ul class="tags-popup">
     
-      ${data.technologies.map((tech) => `<li class="${tech.class}">${tech.title.toLowerCase()}</li>`).join("")}
+      ${data.technologies.map((tech) => `<li class="${tech.class}">${tech.title.toLowerCase()}</li>`).join('')}
     </ul>
   </div>
 
@@ -80,8 +79,10 @@ function getPopupHtml() {
     <a href="#" class="button-popup1">See Live <img src="./Assets/icon.png" alt="popup-image" class="btn-popup-img"/></a>
     <a href="#" class="button-popup2">See Source <img src="./Assets/vector2.png" alt="popup-image" class="btn-popup-img" /></a>
   </div>
-  `
-  })
+  </div>
+  </div>
+  `;
+  });
 
   return popHtml;
 }
@@ -91,3 +92,25 @@ function renderMobilePopup() {
 }
 
 renderMobilePopup();
+
+// // Form-validation
+// const form = document.querySelector('.form-valid');
+// const nameInput = document.querySelector('.form-element');
+// const emailInput = document.querySelector('.form-element');
+// const textInput = document.querySelector('.textarea');
+// const errorText = document.querySelector('.error-message');
+// const textMessage = 'please only use lowercase letters';
+
+// form.addEventListener('submit', (e) => {
+//   if (emailInput.value !== emailInput.value.toLowerCase()) {
+//     errorText.textContent = textMessage;
+//     errorText.style.color = 'red';
+//     // errorMsg.style.fontSize = '19px';
+//     // errorMsg.style.whiteSpace = 'nowrap';
+//     // emailInput.style.border = '1px solid red';
+//     e.preventDefault();
+//   } else {
+//     errorMsg.style.display = 'none';
+//     emailInput.style.border = '1px solid green';
+//   }
+// }
