@@ -695,26 +695,28 @@ hr {
   #mobile-popup {
     display: none;
     position: fixed;
+
     /* transform: translateX(-45%); */
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    top: 0;
     width: 90%;
     background: #fff;
     margin: 16px;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    Top: 49%;
-  Left: 46%;
-  Transform: translate(-50%, -50%);
+    top: 49%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+
     /* margin-top: -30rem;
     height: 100vh; */
   }
 
-  .popup-flex, .tags-popup {
+  .popup-flex,
+  .tags-popup {
     display: flex;
   }
 
-  .popup-flex{
+  .popup-flex {
     width: 100%;
   }
 
