@@ -1,11 +1,11 @@
-import { mobilePopupData } from "./data.js";
+import { 
+  mobilePopupData
+ } from "./data.js";
 
 const navtext = document.querySelector(".mobile-menu");
 const hamburger = document.querySelector(".menubar");
 const closeBtn = document.querySelector(".closebtn");
 const menuLists = document.querySelectorAll(".menu-list");
-const mobilePopup = document.getElementById("mobile-popup");
-
 
 
 hamburger.addEventListener("click", () => {
@@ -22,6 +22,23 @@ for (let i = 0; i < menuLists.length; i += 1) {
   });
 }
 
+document.getElementById('seeProjectButton').addEventListener('click', function (event) {
+  event.preventDefault();
+  let button = event.target;
+  let mobilePopup = document.getElementById('mobile-popup');
+  let buttonRect = button.getBoundingClientRect();
+  let buttonCenterX = buttonRect.left + buttonRect.width + 1;
+  mobilePopup.style.left = buttonCenterX + 'px';
+  mobilePopup.style.top = (buttonRect.top - mobilePopup.offsetHeight) + 'px';
+  mobilePopup.style.display = 'block';
+});
+document.getElementById('mobile-popup').addEventListener('click', function (e) {
+  e.preventDefault();
+  if (e.target.classList.contains('popup-close')) {
+    document.getElementById('mobile-popup').style.display = 'none';
+  }
+});
+
 function getPopupHtml() {
   let popHtml = ``;
 
@@ -29,7 +46,7 @@ function getPopupHtml() {
     popHtml += `
     <div class="mobile-project-title">
       <h3 class="project-title">${data.name}</h3>
-      <img src="${data.featuredImage}" alt="close" class="popup-close"/>
+      <img src="./Assets/close.png" alt="close" class="popup-close"/>
     </div>
 
     <div class="texts">
@@ -42,7 +59,7 @@ function getPopupHtml() {
 
   <div>
     <img
-          src="background-svg\Snapshoot Portfolio.svg"
+          src="${data.featuredImage}"
           class="popup-img" alt="image"/>
   </div>
 
@@ -52,17 +69,16 @@ function getPopupHtml() {
 
   <div class="popup-list">
     <ul class="tags-popup">
-      <li class="html">HTML</li>
-      <li class="css">CSS</li>
-      <li class="js">JavaScript</li>
+    
+      ${data.technologies.map((tech) => `<li class="${tech.class}">${tech.title.toLowerCase()}</li>`).join("")}
     </ul>
   </div>
 
   <hr>
 
   <div class="button-div">
-    <a href="#" class="button-popup1">See Live <img src="Assets\Icon.png" alt="popup-image" class="btn-popup-img"/></a>
-    <a href="#" class="button-popup2">See Source <img src="Assets\Vector2.png" alt="popup-image" class="btn-popup-img" /></a>
+    <a href="#" class="button-popup1">See Live <img src="./Assets/icon.png" alt="popup-image" class="btn-popup-img"/></a>
+    <a href="#" class="button-popup2">See Source <img src="./Assets/vector2.png" alt="popup-image" class="btn-popup-img" /></a>
   </div>
   `
   })
