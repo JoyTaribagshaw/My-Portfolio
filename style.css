@@ -688,7 +688,8 @@ hr {
   .primary-text,
   .project-title,
   .project-title-1,
-  .black-line-container, #mobile-popup {
+  .black-line-container,
+  #mobile-popup {
     display: none;
   }
 
