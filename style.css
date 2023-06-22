@@ -688,12 +688,11 @@ hr {
   .primary-text,
   .project-title,
   .project-title-1,
-  .black-line-container {
+  .black-line-container, #mobile-popup {
     display: none;
   }
 
   #mobile-popup {
-    display: none;
     position: fixed;
 
     /* transform: translateX(-45%); */
