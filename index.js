@@ -50,7 +50,7 @@ function getPopupHtml() {
       <p class="popup-text-2">2015</p>
     </div>
 
-  <div>
+  <div class="pop-img">
     <img
           src="${data.featuredImage}"
           class="popup-img" alt="image"/>
@@ -73,12 +73,12 @@ function getPopupHtml() {
 
   <div class="button-div">
     <a href="#" class="button-popup1">
-    <button class="button">
+    <button class="button-popup">
     <span>See Live</span> <img src="./Assets/icon.png" alt="popup-image" class="btn-popup-img"/>
     </button>
     </a>
     <a href="#" class="button-popup1">
-    <button class="button"><span>See Source</span> <img src="./Assets/vector2.png" alt="popup-image" class="btn-popup-img" />
+    <button class="button-popup"><span>See Source</span> <img src="./Assets/vector2.png" alt="popup-image" class="btn-popup-img" />
     </button></a>
   </div>
   </div>
