@@ -660,8 +660,6 @@ hr {
 
 .button-popup1 {
   width: 45%;
-
-  /* margin-left: 16px; */
 }
 
 .button-div {
@@ -692,12 +690,6 @@ hr {
   width: 100%;
   height: 100%;
   background: #fff;
-
-  /* border: 1px solid #dfe1e6; */
-
-  /* border-radius: 16px; */
-
-  /* transform: translate(-50%); */
   background: #c1c7d0b6;
 }
 
@@ -724,19 +716,6 @@ hr {
     display: none;
   }
 
-  /* #mobile-popup {
-    display: none;
-    position: absolute;
-    top: 20px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    background: #fff;
-    margin: 16px;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    transform: translate(-73%); */
-
-  /* } */
 
   .popup-img {
     width: 95%;
@@ -1441,8 +1420,6 @@ hr {
       display: none;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
       width: 100%;
-
-      /* transform: translate(-66%); */
     }
 
     .desktop-header,

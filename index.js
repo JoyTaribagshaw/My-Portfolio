@@ -21,12 +21,7 @@ for (let i = 0; i < menuLists.length; i += 1) {
 
 document.getElementById('seeProjectButton').addEventListener('click', (event) => {
   event.preventDefault();
-  // const button = event.target;
   const mobilePopup = document.getElementById('mobile-popup');
-  // const buttonRect = button.getBoundingClientRect();
-  // const buttonCenterX = buttonRect.left + buttonRect.width + 25;
-  // mobilePopup.style.left = `${buttonCenterX}px`;
-  // mobilePopup.style.top = `${buttonRect.top - mobilePopup.offsetHeight}px`;
   mobilePopup.style.display = 'block';
 });
 document.getElementById('mobile-popup').addEventListener('click', (e) => {
