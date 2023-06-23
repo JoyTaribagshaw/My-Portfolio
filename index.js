@@ -93,24 +93,3 @@ function renderMobilePopup() {
 
 renderMobilePopup();
 
-// // Form-validation
-// const form = document.querySelector('.form-valid');
-// const nameInput = document.querySelector('.form-element');
-// const emailInput = document.querySelector('.form-element');
-// const textInput = document.querySelector('.textarea');
-// const errorText = document.querySelector('.error-message');
-// const textMessage = 'please only use lowercase letters';
-
-// form.addEventListener('submit', (e) => {
-//   if (emailInput.value !== emailInput.value.toLowerCase()) {
-//     errorText.textContent = textMessage;
-//     errorText.style.color = 'red';
-//     // errorMsg.style.fontSize = '19px';
-//     // errorMsg.style.whiteSpace = 'nowrap';
-//     // emailInput.style.border = '1px solid red';
-//     e.preventDefault();
-//   } else {
-//     errorMsg.style.display = 'none';
-//     emailInput.style.border = '1px solid green';
-//   }
-// }
