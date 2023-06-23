@@ -19,18 +19,28 @@
           <a class="logo">My Logo</a>
         </div>
         <div class="menu">
-       <a> <img src="icons8-menu (1).svg" class="menubar"> </a>
+       <a> <img src="Assets\icons8-menu-30 (2).png" class="menubar"> </a>
         </div>
       </nav>
+      
+<nav class="mobile-menu">
+  <ul class="mobile-menu-list">
+   <img src="Assets\icons8-close-24 (4).png" class="closebtn">
+   <li class="menu-list"> <a href="#head" class="menu-link">Portfolio</a></li>
+ <li class="menu-list"> <a href="#about" class="menu-link">About</a></li>
+ <li class="menu-list"> <a href="#contact-me" class="menu-link">Contact</a></li>
+  </ul>
+ </nav>
+
 
 <!-- Laptop & Desktop -->
 <nav class="desktop-header">
   <h2 class="logo">My Logo</h2>
   <div class="desktop-menu">
     <ul class="list-items">
-      <li class="list-item">Portfolio</li>
-      <li class="list-item">About</li>
-      <li class="list-item">Contact</li>
+      <li class="list-item"><a href="#head"></a>Portfolio</li>
+      <li class="list-item"><a href="#about"></a>About</li>
+      <li class="list-item"><a href="#contact-me"></a>Contact</li>
     </ul>
   </div>
 </nav>
@@ -39,7 +49,7 @@
     <!--end of header design-->
 
     <!--headline design-->
-    <section class="headline">
+    <section class="headline" id="head">
       <div class="headline-div">
         <h1 class="headline-1">I'm Joy. <br> Glad to see you!</h1>
 
@@ -67,7 +77,8 @@
 
     <!--Works-->
     <!--card 1-->
-    <section class="Works">
+    <section id="parent-works">
+    <section class="Works" id="works">
       <div class="container">
 
         <div class="card-image">
@@ -125,7 +136,7 @@
           </div>
 
           <div class="project-btn">
-            <a href="#" class="button">See Project</a>
+            <button class="button" id="seeProjectButton">See Project</button>
           </div>
         </div>
 
@@ -195,7 +206,7 @@
   </div>
 
   <div class="project-btn">
-    <a href="#" class="button">See Project</a>
+    <button class="button" id="seeProjectButton">See Project</button>
   </div>
       </div>
 
@@ -204,7 +215,7 @@
 
 
     </div>
-    </section>
+    <!-- </section> -->
 
     <!--card 3-->
     <section class="Works">
@@ -341,9 +352,10 @@
 
       </div>
     </section>
+  </section>
 
 <!--About myself-->
-    <section class="base">
+    <section class="base" id="about">
       <div class="about-myself">
       <h1 class="about-base">About Myself</h1>
       <p class="about-text">
@@ -434,7 +446,7 @@
               </div>
               <!-- Form -->
               <form action="https://formspree.io/f/mwkjrezy"
-                  method="post">
+                  method="post" class="form-valid">
                   <!-- Name -->
                   <input
                       name="form_name"
@@ -457,6 +469,7 @@
                       rows="10"
                       placeholder="Write your message here..."
                       maxlength="500"
+                      class="textarea"
                       required></textarea>
                   <div class="submit-btn-container">
                       <button type="submit" id="submit-btn">Get in touch</button>
@@ -470,5 +483,11 @@
       </div>
   </section>
 
+  <!-- Mobile Pop Starts Here -->
+  <div id="mobile-popup">
+    <!-- Pop up placeholder -->
+  </div>
+
+  <script src="index.js" type="module"></script>
   </body>
 </html>
