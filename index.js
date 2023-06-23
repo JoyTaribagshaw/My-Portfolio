@@ -25,8 +25,8 @@ document.getElementById('seeProjectButton').addEventListener('click', (event) =>
   const mobilePopup = document.getElementById('mobile-popup');
   const buttonRect = button.getBoundingClientRect();
   const buttonCenterX = buttonRect.left + buttonRect.width + 25;
-  mobilePopup.style.left = `${buttonCenterX}px`;
-  mobilePopup.style.top = `${buttonRect.top - mobilePopup.offsetHeight}px`;
+  // mobilePopup.style.left = `${buttonCenterX}px`;
+  // mobilePopup.style.top = `${buttonRect.top - mobilePopup.offsetHeight}px`;
   mobilePopup.style.display = 'block';
 });
 document.getElementById('mobile-popup').addEventListener('click', (e) => {
@@ -41,17 +41,18 @@ function getPopupHtml() {
 
   mobilePopupData.forEach((data) => {
     popHtml += `
+    <div class="overlay">
     <div class="mobile-project-title">
-      <h3 class="project-title">${data.name}</h3>
+      <h3 class="popup-title">${data.name}</h3>
       <img src="./Assets/close.png" alt="close" class="popup-close"/>
     </div>
 
-    <div class="texts">
-      <h3 class="bold-text">CANOPY</h3>
+    <div class="popup-texts">
+      <h3 class="popup-bold-text">CANOPY</h3>
       <div class="dot"></div>
-      <p class="text-1">Back End Dev</p>
+      <p class="popup-text-1">Back End Dev</p>
       <div class="dot"></div>
-      <p class="text-2">2015</p>
+      <p class="popup-text-2">2015</p>
     </div>
 
   <div>
@@ -65,7 +66,7 @@ function getPopupHtml() {
     <p>${data.description}</p>
   </div>
 
-  <div>
+  <div class="pop">
   <div class="popup-list">
     <ul class="tags-popup">
     
@@ -76,11 +77,18 @@ function getPopupHtml() {
   <hr>
 
   <div class="button-div">
-    <a href="#" class="button-popup1">See Live <img src="./Assets/icon.png" alt="popup-image" class="btn-popup-img"/></a>
-    <a href="#" class="button-popup2">See Source <img src="./Assets/vector2.png" alt="popup-image" class="btn-popup-img" /></a>
+    <a href="#" class="button-popup1">
+    <button class="button">
+    <span>See Live</span> <img src="./Assets/icon.png" alt="popup-image" class="btn-popup-img"/>
+    </button>
+    </a>
+    <a href="#" class="button-popup1">
+    <button class="button"><span>See Source</span> <img src="./Assets/vector2.png" alt="popup-image" class="btn-popup-img" />
+    </button></a>
   </div>
   </div>
   </div>
+  <div>
   `;
   });
 
