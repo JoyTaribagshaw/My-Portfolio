@@ -95,3 +95,26 @@ function renderMobilePopup() {
 }
 
 renderMobilePopup();
+
+
+//Form validation
+
+const form = document.querySelector('.form-valid');
+
+form.addEventListener('submit', (e) => {
+  
+  const emailInput = document.getElementById('email');
+  const checkInputCase = emailInput.value.toLowerCase();
+
+  if(emailInput.value !== checkInputCase) {
+    const errorMessage = document.querySelector('.error');
+    errorMessage.style.display='block';
+    
+  } else {
+    document.querySelector('.error').style.display = 'none';
+    e.target.submit();
+
+  }
+}
+
+) 
