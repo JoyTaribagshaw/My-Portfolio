@@ -110,7 +110,39 @@ form.addEventListener('submit', (e) => {
     errorMessage.style.display = 'block';
   } else {
     document.querySelector('.error').style.display = 'none';
-    localStorage.setItem('login', checkInputCase);
     e.target.submit();
   }
+});
+
+//local storage
+const email = document.querySelector('input[name="form_email"]');
+const username = document.querySelector('input[name="form_name"]');
+const message = document.querySelector('textarea[name="form_message"]');
+
+if (localStorage.getItem('contact-data') !== null) {
+  const data = JSON.parse(localStorage.getItem('contact-data'));
+  email.value = data.email;
+  username.value = data.username;
+  message.value = data.message;
+}
+
+const contactData = {
+  email: email.value,
+  username: username.value,
+  message: message.value,
+};
+
+email.addEventListener('change', (e) => {
+  contactData.email = e.target.value;
+  localStorage.setItem('contact-data', JSON.stringify(contactData));
+});
+
+username.addEventListener('change', (e) => {
+  contactData.username = e.target.value;
+  localStorage.setItem('contact-data', JSON.stringify(contactData));
+});
+
+message.addEventListener('change', (e) => {
+  contactData.message = e.target.value;
+  localStorage.setItem('contact-data', JSON.stringify(contactData));
 });
