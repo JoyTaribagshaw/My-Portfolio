@@ -110,7 +110,7 @@ form.addEventListener('submit', (e) => {
     errorMessage.style.display = 'block';
   } else {
     document.querySelector('.error').style.display = 'none';
-    //Local Storage
+    
     e.target.submit();
   }
 });
