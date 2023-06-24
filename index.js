@@ -114,7 +114,7 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-//local storage
+// local storage
 const email = document.querySelector('input[name="form_email"]');
 const username = document.querySelector('input[name="form_name"]');
 const message = document.querySelector('textarea[name="form_message"]');
