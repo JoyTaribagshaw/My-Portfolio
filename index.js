@@ -102,7 +102,7 @@ renderMobilePopup();
 const form = document.querySelector('.form-valid');
 
 form.addEventListener('submit', (e) => {
-  
+  e.preventDefault();
   const emailInput = document.getElementById('email');
   const checkInputCase = emailInput.value.toLowerCase();
 
