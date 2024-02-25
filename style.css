@@ -82,14 +82,18 @@ nav {
   padding: 4px 24px;
 }
 
+.logo {
+  width: 8%;
+}
+
 .list-items{
   display: flex;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn {
-  font-family: "Roboto";
-  /* display: inline-block; */
+  font-family: 'Poppins', sans-serif;
   padding: 6px 12px;
   background-color: #2230d2;
   color: #fff;
@@ -147,7 +151,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 27px;
   line-height: 44px;
   color: #172b4d;
   width: 80%;
@@ -311,7 +315,7 @@ li {
 .button {
   background-color: #fff;
   color: #396df2;
-  padding: 12px;
+  padding: 5px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -324,6 +328,10 @@ li {
   cursor: pointer;
   border: 1px solid #6070ff;
   border-radius: 8px;
+}
+
+.a_btn{
+  color: #396df2;
 }
 
 /* headline-1 */
@@ -348,7 +356,7 @@ li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #344563;
   margin-left: 25px;
@@ -383,10 +391,12 @@ h4 {
   margin-left: 24px;
   margin-bottom: 131px;
   list-style-type: none;
+  align-items: center;
 }
 
 .connect-images {
   display: flex;
+  align-items: center;
   width: 100%;
   margin-left: 5px;
   margin-top: 10px;
@@ -400,6 +410,16 @@ h4 {
   width: 30px;
   margin-left: 10px;
   color: #505f79;
+}
+
+.vector:hover {
+  transform: translateY(-10px);
+  transition: all 0.6s ease-in-out;
+}
+
+.tiktok {
+  height: 30px;
+  width: 35px;
 }
 
 .base {
@@ -427,17 +447,12 @@ h4 {
   height: 60px;
   width: 303px;
   display: flex;
-  margin-left: 16px;
   margin-bottom: 12px;
-  background-color: #dfe1e6;
   border-radius: 5px;
   list-style-type: none;
-  padding-right: 16px;
 }
 
 .bar-img {
-  height: 48px;
-  width: 48px;
   padding-top: 10px;
   padding-left: 16px;
 }
@@ -449,13 +464,16 @@ h4 {
   padding-left: 16px;
 }
 
+.frame-div {
+  display: flex;
+}
+
 .frame {
   justify-content: space-between;
-  border-bottom: 2px solid rgb(211, 211, 211);
-  height: 50%;
   width: 90%;
   display: flex;
   margin-left: 16px;
+  padding-bottom: 15px;
 }
 
 .skills,
@@ -478,7 +496,7 @@ h4 {
   padding-top: 16px;
 }
 
-.button:hover {
+.button:hover, .a_btn:hover {
   color: #fff;
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -619,10 +637,6 @@ textarea {
   height: 5px;
   margin-bottom: 8px;
   margin-left: 100px;
-}
-
-.frames {
-  padding-bottom: 30px;
 }
 
 .desktop-header,
@@ -814,7 +828,7 @@ hr {
   }
 
   .desktop-header {
-    padding: 20px;
+    padding: 5px 20px;
   }
 
   .list-item {
@@ -838,11 +852,13 @@ hr {
     border-radius: 8px;
     padding: 16px;
     width: 100%;
+    align-items: center;
   }
 
   .card-img-desktop,
   .card1-img-desktop {
     width: 100%;
+    height: 60%;
   }
 
   .card1-img-desktop {
@@ -862,7 +878,7 @@ hr {
   }
 
   .project-btn {
-    width: 50%;
+    display: flex;
   }
 
   .project-title-desktop,
@@ -870,7 +886,7 @@ hr {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 44px;
     color: #172b4d;
     width: 100%;
@@ -901,7 +917,6 @@ hr {
   }
 
   .primary-text-desktop {
-    height: 90px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -914,7 +929,7 @@ hr {
   .button {
     background-color: #fff;
     color: #396df2;
-    padding: 12px;
+    padding: 5px 12px;
     text-align: center;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -922,7 +937,7 @@ hr {
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    margin: 20px 16px 35px 16px;
+    margin: 0 16px 35px 16px;
     cursor: pointer;
     border: 1px solid #6070ff;
     border-radius: 8px;
@@ -1234,7 +1249,7 @@ hr {
       font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 32px;
+      font-size: 27px;
       line-height: 44px;
       color: #172b4d;
       width: 100%;
@@ -1265,8 +1280,6 @@ hr {
     }
 
     .primary-text-desktop {
-      width: 90%;
-      height: 79px;
       font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 400;
@@ -1537,7 +1550,7 @@ hr {
       font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 32px;
+      font-size: 27px;
       line-height: 44px;
       color: #172b4d;
       width: 100%;
@@ -1568,8 +1581,6 @@ hr {
     }
 
     .primary-text-desktop {
-      width: 90%;
-      height: 79px;
       font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 400;
