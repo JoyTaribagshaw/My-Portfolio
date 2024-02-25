@@ -44,21 +44,23 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 700px;
+  height: 180vh;
   background: #6070ff;
   background-color: #293ad0cc;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   backdrop-filter: blur(5px);
-  padding-left: 28px;
+  padding-left: 80px;
+  padding-top: 150px;
+  z-index: 9999;
 }
 
 .closebtn {
-  width: 12px;
-  height: 12px;
-  margin: 20px 15px 20px 280px;
+  width: 24px;
+  height: 24px;
+  margin: 20px 80px 20px 250px;
 }
 
 .menu-link {
@@ -67,7 +69,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -84,6 +86,10 @@ nav {
 
 .logo {
   width: 8%;
+}
+
+.mobile-logo {
+  width: 70px;
 }
 
 .list-items{
@@ -122,7 +128,7 @@ nav {
   color: #6070ff;
 }
 
-.desktop-header{
+.desktop-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,6 +136,17 @@ nav {
   background: #fff;
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background: #fff;
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   top: 0;
   left: 0;
   right: 0;
@@ -156,7 +173,6 @@ nav {
   color: #172b4d;
   width: 80%;
   padding: 16px;
-  margin-bottom: 30px;
   margin-top: -20px;
 }
 
@@ -171,18 +187,19 @@ nav {
   width: 100%;
 }
 
+.project-btn {
+  display: flex;
+}
+
 /* Project titles */
 .popup-title,
 .project-title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  width: 295px;
-  height: 36px;
-  padding: 16px;
+  padding: 0 16px;
 }
 
 .popup-texts,
@@ -191,12 +208,10 @@ nav {
   justify-content: flex-start;
   align-items: center;
   padding-left: 5px;
-  margin-top: 5px;
 }
 
 .popup-texts {
   height: 10px;
-  margin-top: 10px;
 }
 
 .dot {
@@ -216,7 +231,6 @@ nav {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
-  width: 55px;
   height: 16px;
   margin-left: 16px;
 }
@@ -229,7 +243,6 @@ nav {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  width: 90px;
   height: 16px;
 }
 
@@ -246,8 +259,6 @@ nav {
 }
 
 .primary-text {
-  width: 70%;
-  height: 79px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -304,11 +315,27 @@ li {
   line-height: 16px;
   color: #6070ff;
   border-radius: 8px;
-  width: 100px;
   height: 24px;
   background: #ebebff;
   padding: 4px 12px 4px 12px;
   margin: 8px;
+  justify-content: center;
+}
+
+.ruby {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  border-radius: 8px;
+  width: 105px;
+  height: 24px;
+  background: #ebebff;
+  padding: 4px 10px 2px 10px;
+  margin-top: 8px;
+  margin-left: 8px;
   justify-content: center;
 }
 
@@ -441,6 +468,14 @@ h4 {
   color: #000;
   padding: 30px 18px 15px 16px;
   justify-content: space-between;
+}
+
+.tag-div {
+  display: flex;
+}
+
+.language-bar{
+  display: flex;
 }
 
 .bar {
@@ -645,7 +680,6 @@ textarea {
 .bold-text-desktop,
 .text-1-desktop,
 .primary-text-desktop,
-.ruby,
 .project-title1-desktop,
 .card-image-desktop1,
 .mobile-menu {
@@ -655,7 +689,6 @@ textarea {
 /* Mobile Popup */
 
 .mobile-project-title {
-  height: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -873,12 +906,7 @@ hr {
     display: flex;
     align-items: center;
     padding-left: 5px;
-    margin-top: 5px;
     width: 80%;
-  }
-
-  .project-btn {
-    display: flex;
   }
 
   .project-title-desktop,
