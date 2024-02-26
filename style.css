@@ -976,8 +976,11 @@ hr {
     padding-left: 10px;
   }
 
-  .languages {
+  .languages, .frame {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
   }
 
   .language-desktop {
